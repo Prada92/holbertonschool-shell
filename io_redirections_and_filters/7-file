@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "Best School" > $'\\*\\\\\'"Best School"\'\\\*\$\?\*\*\*\*\*:)'
+python3 -c "
+name = \"\\\\*\\\\\\\\'\\\"Best School\\\"\\\\'\\\\\\\\*\$\\\\?\\\\*\\\\*\\\\*\\\\*\\\\*:)\"
+open(name, 'w').write('Best School\\n')
+"
